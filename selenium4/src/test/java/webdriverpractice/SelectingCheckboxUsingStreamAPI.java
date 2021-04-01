@@ -1,4 +1,4 @@
-package newcodes;
+package webdriverpractice;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
