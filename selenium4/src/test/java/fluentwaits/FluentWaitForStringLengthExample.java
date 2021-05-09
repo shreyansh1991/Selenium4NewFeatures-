@@ -1,9 +1,8 @@
 package fluentwaits;
 import java.time.Duration;
 import java.util.Date;
- 
+
 import org.openqa.selenium.support.ui.FluentWait;
-import java.util.function.Function;
 public class FluentWaitForStringLengthExample {
 
 	public static void main(String[] args) {
@@ -13,7 +12,7 @@ public class FluentWaitForStringLengthExample {
 		// Setting FluentWait for word
 		FluentWait<StringBuilder> wait = new FluentWait<>(word)
 				// Check for condition in every 2 seconds
-				.pollingEvery(Duration.ofSeconds(2))
+				.pollingEvery(Duration.ofSeconds(1))
 				// Till time out i.e. 30 seconds
 				.withTimeout(Duration.ofSeconds(30));
  
